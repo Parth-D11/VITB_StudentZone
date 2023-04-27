@@ -98,7 +98,7 @@ h1 {
     padding: 0.5rem 0 1rem;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 420px) {
 
   .main {
     padding: 2rem 0 2rem;
@@ -148,7 +148,7 @@ h1 {
 
     .logo {
       height: 150px;
-      padding: 1rem 0 1rem;
+      padding: 1rem 1rem 1rem;
       margin: 0 0 0;
     }
     
@@ -166,6 +166,75 @@ h1 {
 
 
   }
+
+  @media screen and (min-width: 421px ) and (max-width: 500px) {
+
+    .main {
+      padding: 2rem 0 2rem;
+      backdrop-filter: brightness(10%);
+    }
+  
+      
+    h1 {
+      color:black;
+      font-size: 2rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 3rem 5rem 2rem;
+      margin-bottom: -.1px;
+      backdrop-filter: brightness(100%);
+      text-shadow: 0 0 0;
+    }
+  
+    h3 { 
+      color:black;
+      font-size: 1.3rem;
+      font-family: "Rajdhani";
+      font-weight: 700;
+      padding: 1rem 5rem 2rem;
+        margin-bottom: -.1px;
+        backdrop-filter: brightness(100%);
+        text-shadow: 0 0 0;
+      }
+  
+      h4,a {
+        color: grey;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: "Rajdhani";
+        padding: 0.5rem 0.3em 1rem;    
+      }
+      
+      .dropbox {
+        height: 90px;
+        padding: 0 9rem 0;
+      }
+  
+      #Title {
+        background-image: none;
+        height: 100%;
+      }
+  
+      .logo {
+        height: 150px;
+        padding: 1rem 3rem 1rem;
+        margin: 0 0 0;
+      }
+      
+      .logo:hover {
+        background-color: #fba35d;
+      }
+  
+      #Content {
+        padding: 2rem 7.3rem 2rem;
+      }
+  
+      .content-box {
+        padding: 0.5rem 1.5rem 1rem;
+      }
+  
+  
+    }
 
   @media screen and (min-width: 750px) and (max-width: 900px) {
 
